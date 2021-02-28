@@ -31,6 +31,19 @@ Interactive Gallery
 Column {data-width=500}
 -----------------------------------------------------------------------
 
+### Number of Accidents
+```{r}
+valueBox(nrow(unfaelle), ico = "fa-bicycle" )
+```
+
+### Number of Bicycle Accidents
+```{r}
+valueBox(5000, ico = "fa-bicycle" )
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
 ### Accident Locations
 
 ```{r}
